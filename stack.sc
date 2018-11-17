@@ -62,7 +62,6 @@ SynthDef.new(\moog,
  ReplaceOut.ar(p,MoogFF.ar(In.ar(p,1),In.ar(p+1,1),In.ar(p+2,1),0,1,0));
   }).add;
 
-
 SynthDef.new(\pi,
  {|p|
  ReplaceOut.ar(p,PitchShift.ar(In.ar(p,1),0.1,In.ar(p+1,1),0,0,1,0));
