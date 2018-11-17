@@ -4,7 +4,7 @@ s = Server.scsynth.local.boot;
  )
 
 
-// stack patcher
+// stack
 (
 SynthDef.new(\constant,
  {|p,v=0|
