@@ -5,7 +5,7 @@ s = Server.scsynth.local.boot;
 
 
 // eval this code in sclang's REPL first
-
+(
 SynthDef.new(\constant,
  {|p,v=0|
   ReplaceOut.ar(p,K2A.ar(v));
