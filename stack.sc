@@ -4,8 +4,8 @@ s = Server.scsynth.local.boot;
  )
 
 
-// stack
-(
+// eval this code in sclang's REPL first
+
 SynthDef.new(\constant,
  {|p,v=0|
   ReplaceOut.ar(p,K2A.ar(v));
@@ -166,6 +166,5 @@ r 1 m 1 saw 5 sin 2 a 2 m a pi l .2 m r
 
 .1 sin 30 m 3 sin 22 m o 51 m sin 1 .9 .0 verb .1 m 1 .99 .5 verb 5 sin m 1 .99 .5 verb l .5 m r
 .1 sin 30 m 3 sin 22 m o 50 m sin 1 .9 .0 verb .1 m 1 .99 .5 verb 5 sin m 1 .99 .5 verb r .5 m l
-
 
 "))
