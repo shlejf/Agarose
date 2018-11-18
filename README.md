@@ -1,4 +1,4 @@
-## ScOrth - concatenative language/patcher for supercollider
+## Agarose - concatenative language/patcher for supercollider
 
 see stack.sc 'Examples' section
 
