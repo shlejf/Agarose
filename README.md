@@ -1,6 +1,4 @@
-## Agarose
-### concatenative language/patcher in supercollider 
-##### (https://github.com/supercollider/supercollider)
+## Agarose - concatenative language/patcher for supercollider
 
 see stack.sc 'Examples' section
 
