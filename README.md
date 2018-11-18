@@ -1,4 +1,4 @@
-## ScOrth
+## Agarose
 
 see stack.sc 'Examples' section
 
